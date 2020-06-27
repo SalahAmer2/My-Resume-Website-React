@@ -7,7 +7,7 @@ const AboutMe = () => (
         <div class="leftDiv">
             <h3>Professional Details</h3>
             <img
-             src="/images/myPhoto.jpg" 
+             src="../../assets/images/myPhoto.jpg" 
              alt="image not found" 
              class="myPhoto" 
             />
@@ -26,12 +26,12 @@ const AboutMe = () => (
 
             <div class="skillsIcons">
                 <img
-                 src="/images/html js css.png" 
+                 src="../../assets/images/html js css.png" 
                  alt="image not found" 
                  class="minimizeImg1Size" 
                 />
                 <img
-                 src="/images/nodejs icon.png" 
+                 src="../../assets/images/nodejs icon.png" 
                  alt="image not found" 
                  class="minimizeImg2Size" 
                 />
@@ -51,4 +51,3 @@ const AboutMe = () => (
 )
 
 export default AboutMe;
-

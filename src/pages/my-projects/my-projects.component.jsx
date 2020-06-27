@@ -26,7 +26,7 @@ const MyProjects = () => (
         <div class="containerDiv">
             <Project 
                 videoTitle="Travel App" 
-                src="/videos/Travel App.mp4"
+                src="../../assets/videos/Travel App.mp4"
                 sentence="It's link on GitHub"
                 gitHubLink="https://github.com/SalahAmer2/Travel-App"   
             />
@@ -35,7 +35,7 @@ const MyProjects = () => (
         <div class="containerDiv">
             <Video 
                 videoTitle="Live Websites"
-                src="/videos/Live Website.mp4"
+                src="../../assets/videos/Live Website.mp4"
             />
             <LinkText 
                 sentence="Link to the live website"
@@ -54,7 +54,7 @@ const MyProjects = () => (
         <div class="containerDiv">
             <Project
                 videoTitle='Authentication Project "Secrets"'
-                src="/videos/Auth_Secrets.mp4"
+                src="../../assets/videos/Auth_Secrets.mp4"
                 sentence="It's link on GitHub"
                 gitHubLink="https://github.com/SalahAmer2/Auth-Project"
             />
@@ -63,7 +63,7 @@ const MyProjects = () => (
         <div class="containerDiv">
             <Project
                 videoTitle="Blog Website"
-                src="/videos/Blog Website with Database.mp4"
+                src="../../assets/videos/Blog Website with Database.mp4"
                 sentence="It's link on GitHub"
                 gitHubLink="https://github.com/SalahAmer2/Blog-with-Database"
             />
@@ -72,7 +72,7 @@ const MyProjects = () => (
         <div class="containerDiv">
             <Project
                 videoTitle="Simon Game"
-                src="/videos/Simon Game.mp4"
+                src="../../assets/videos/Simon Game.mp4"
                 sentence="It's link on GitHub"
                 gitHubLink="https://github.com/SalahAmer2/Simon-Game"
             />
@@ -81,7 +81,7 @@ const MyProjects = () => (
         <div class="containerDiv">
             <Project
                 videoTitle="Drum Kit"
-                src="/videos/Drum Kit.mp4"
+                src="../../assets/videos/Drum Kit.mp4"
                 sentence="It's link on GitHub"
                 gitHubLink="https://github.com/SalahAmer2/Drum-Kit"
             />
