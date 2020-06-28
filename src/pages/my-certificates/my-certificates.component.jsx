@@ -12,11 +12,11 @@ const MyCertificates = () => (
         <section class="slideshow">
             <div class="content">
                 <div class="content-carousel">
-                    <CertificateInCarousel certificatePath="../../assets/images/Web Development Certificate.jpg" />
-                    <CertificateInCarousel certificatePath="../../assets/images/Udacity Graduation Certificate of Participation Front End Dev.jpg" />
-                    <CertificateInCarousel certificatePath="../../assets/images/Udacity Graduation Certificate of Completion Front End Dev.jpg" />
-                    <CertificateInCarousel certificatePath="../../assets/images/Udacity Graduation Certificate Full Stack Dev.jpg" />
-                    <CertificateInCarousel certificatePath="../../assets/images/Front End Developer Nanodegree.jpg" />
+                    <CertificateInCarousel certificatePath={require("../../assets/images/Web Development Certificate.jpg")} />
+                    <CertificateInCarousel certificatePath={require("../../assets/images/Udacity Graduation Certificate of Participation Front End Dev.jpg")} />
+                    <CertificateInCarousel certificatePath={require("../../assets/images/Udacity Graduation Certificate of Completion Front End Dev.jpg")} />
+                    <CertificateInCarousel certificatePath={require("../../assets/images/Udacity Graduation Certificate Full Stack Dev.jpg")} />
+                    <CertificateInCarousel certificatePath={require("../../assets/images/Front End Developer Nanodegree.jpg")} />
                 </div>
             </div>
         </section>
@@ -24,11 +24,11 @@ const MyCertificates = () => (
 {/* --------------------------------------------------------------------------------------------------------------------------------------------------------------- */}
         
         <div class="certificatesWithoutCarousel">
-            <CertificateWithoutCarousel certificatePath="../../assets/images/Web Development Certificate.jpg" /><br/>
-            <CertificateWithoutCarousel certificatePath="../../assets/images/Udacity Graduation Certificate of Participation Front End Dev.jpg" /><br/>
-            <CertificateWithoutCarousel certificatePath="../../assets/images/Udacity Graduation Certificate of Completion Front End Dev.jpg" /><br/>
-            <CertificateWithoutCarousel certificatePath="../../assets/images/Udacity Graduation Certificate Full Stack Dev.jpg" /><br/>
-            <CertificateWithoutCarousel certificatePath="../../assets/images/Front End Developer Nanodegree.jpg" />
+            <CertificateWithoutCarousel certificatePath={require("../../assets/images/Web Development Certificate.jpg")} /><br/>
+            <CertificateWithoutCarousel certificatePath={require("../../assets/images/Udacity Graduation Certificate of Participation Front End Dev.jpg")} /><br/>
+            <CertificateWithoutCarousel certificatePath={require("../../assets/images/Udacity Graduation Certificate of Completion Front End Dev.jpg")} /><br/>
+            <CertificateWithoutCarousel certificatePath={require("../../assets/images/Udacity Graduation Certificate Full Stack Dev.jpg")} /><br/>
+            <CertificateWithoutCarousel certificatePath={require("../../assets/images/Front End Developer Nanodegree.jpg")} />
         </div>
     </div>
 )

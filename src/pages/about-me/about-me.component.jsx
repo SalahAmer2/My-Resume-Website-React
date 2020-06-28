@@ -3,15 +3,16 @@ import React from 'react';
 import Tr from "../../components/about-me-tr/tr.component";
 
 const AboutMe = () => (
-    <div class="everythingUnderHeader">
-        <div class="leftDiv">
+    <div className="everythingUnderHeader">
+        <div className="leftDiv">
             <h3>Professional Details</h3>
             <img
-             src="../../assets/images/myPhoto.jpg" 
+             src={require("../../assets/images/myPhoto.jpg")} 
              alt="image not found" 
-             class="myPhoto" 
+             className="myPhoto" 
             />
-            <table cellpadding="10">
+            <table cellPadding="10">
+                <tbody>
                 <Tr title='NAME' info='Salah Amer' />
                 <Tr title='AGE' info='24 years old' />
                 <Tr title='LOCATION' info='Egypt' />
@@ -19,21 +20,22 @@ const AboutMe = () => (
                 <Tr title='CAREER LEVEL' info='Entry Level' />
                 <Tr title='PHONE' info='+201069651732' />
                 <Tr title='E-MAIL' info='salahayman2@gmail.com' />
+                </tbody>
             </table>
         </div>
-        <div class="rightDiv">
+        <div className="rightDiv">
             <h3>About Me</h3><br />
 
-            <div class="skillsIcons">
+            <div className="skillsIcons">
                 <img
-                 src="../../assets/images/html js css.png" 
+                 src={require("../../assets/images/html js css.png")} 
                  alt="image not found" 
-                 class="minimizeImg1Size" 
+                 className="minimizeImg1Size" 
                 />
                 <img
-                 src="../../assets/images/nodejs icon.png" 
+                 src={require("../../assets/images/nodejs icon.png")}
                  alt="image not found" 
-                 class="minimizeImg2Size" 
+                 className="minimizeImg2Size" 
                 />
             </div>
 

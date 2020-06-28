@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => (
     <div>
         <br />
-        <h1 class="footer">
+        <h1 className="footer">
             <a
              target="_blank" 
              href="https://www.iconfinder.com/icons/1012818/code_development_logo_nodejs_icon"
