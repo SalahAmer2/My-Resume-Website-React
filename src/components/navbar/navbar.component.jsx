@@ -24,22 +24,24 @@ class NavBar extends React.Component {
     render() {
         return (
             <div className='header'>
-                {/* <div className={`container ${this.state.iconIsOpen ? 'change' : null}`} onClick={this.handleClick}>
+                {/* <div className={`container${this.state.iconIsOpen ? ' change' : ""}`} onClick={this.handleClick}>
                     <div className="bar1"></div>
                     <div className="bar2"></div>
                     <div className="bar3"></div>
                 </div> */}
-                <MenuIcon className='toggle' />
+                {/* <MenuIcon className='toggle' /> */}
                 <h4 style={{fontWeight:'normal'}} className="navBar">
-                    <Link className='navbarLink' to="/">
+                    <Link className='about-me-icon' to="/">
                         <Avatar src="/broken-image.jpg" />
                     </Link>
+                    <div className='projects-and-certificates-icons'>
                     <Link className='navbarLink' to='/my-projects'>
                         My Projects
                     </Link>
                     <Link className='navbarLink' to='/my-certificates'>
-                        Certificates
+                        My Certificates
                     </Link>
+                    </div>
                 </h4>
             </div>
         )

@@ -1,0 +1,100 @@
+.wholeAboutMe {
+    font-family: Titillium Web;
+}
+
+@media all and (max-width: 768px) {
+    .leftDiv {
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .everythingUnderHeader {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+.myPhoto {
+    width: 100%;
+}
+
+.everythingUnderHeader {
+    flex-direction: row;
+    display: flex;
+    align-items: flex-start;
+}
+
+.leftDiv {
+    float: left;
+    background-color: white;
+    margin-top: 40px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 25px;
+    border-radius: 7px;
+    color: black;
+    box-shadow: 3px 4px 5px 6px #b8b8b8;
+}
+
+.leftDiv h3 {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    text-align: center;
+    background-color: white;
+    text-shadow: 2px 2px 5px gray;
+    padding: 5px;
+    margin: 0;
+}
+
+.leftDiv:hover {
+    transform: scale(1.05);
+    transition: all 100ms;
+}
+
+.rightDiv {
+    float: right;
+    background-color: white;
+    margin-top: 40px;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 40px;
+    border-radius: 7px;
+    color: black;
+    box-shadow: 3px 4px 5px 6px #b8b8b8;
+    padding: 0 20px 10px 20px;
+}
+
+.rightDiv h3 {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    text-align: center;
+    background-color: white;
+    text-shadow: 2px 2px 5px gray;
+    padding: 5px;
+    margin: 0;
+}
+
+.rightDiv:hover {
+    transform: scale(1.05);
+    transition: all 100ms;
+}
+
+.skillsIcons {
+    padding-left: 30%;
+}
+
+.minimizeImg1Size {
+    width: 35%;
+    margin-right: 3%;
+}
+
+.minimizeImg2Size {
+    width: 20%;
+}
+
+.introPart {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
