@@ -11,6 +11,8 @@ import LinkText from "../../components/linkText/linkText.component";
 import Video from "../../components/video/video.component";
 import Project from "../../components/project/project.component";
 
+import './my-projects.styles.scss';
+
 const MyProjects = () => (
     <div>
         <br />
@@ -26,7 +28,7 @@ const MyProjects = () => (
         <div class="containerDiv">
             <Project 
                 videoTitle="Travel App" 
-                src="../../assets/videos/Travel App.mp4"
+                src={require("../../assets/videos/Travel App.mp4")}
                 sentence="It's link on GitHub"
                 gitHubLink="https://github.com/SalahAmer2/Travel-App"   
             />
@@ -35,7 +37,7 @@ const MyProjects = () => (
         <div class="containerDiv">
             <Video 
                 videoTitle="Live Websites"
-                src="../../assets/videos/Live Website.mp4"
+                src={require("../../assets/videos/Live Website.mp4")}
             />
             <LinkText 
                 sentence="Link to the live website"
@@ -54,7 +56,7 @@ const MyProjects = () => (
         <div class="containerDiv">
             <Project
                 videoTitle='Authentication Project "Secrets"'
-                src="../../assets/videos/Auth_Secrets.mp4"
+                src={require("../../assets/videos/Auth_Secrets.mp4")}
                 sentence="It's link on GitHub"
                 gitHubLink="https://github.com/SalahAmer2/Auth-Project"
             />
@@ -63,7 +65,7 @@ const MyProjects = () => (
         <div class="containerDiv">
             <Project
                 videoTitle="Blog Website"
-                src="../../assets/videos/Blog Website with Database.mp4"
+                src={require("../../assets/videos/Blog Website with Database.mp4")}
                 sentence="It's link on GitHub"
                 gitHubLink="https://github.com/SalahAmer2/Blog-with-Database"
             />
@@ -72,7 +74,7 @@ const MyProjects = () => (
         <div class="containerDiv">
             <Project
                 videoTitle="Simon Game"
-                src="../../assets/videos/Simon Game.mp4"
+                src={require("../../assets/videos/Simon Game.mp4")}
                 sentence="It's link on GitHub"
                 gitHubLink="https://github.com/SalahAmer2/Simon-Game"
             />
@@ -81,7 +83,7 @@ const MyProjects = () => (
         <div class="containerDiv">
             <Project
                 videoTitle="Drum Kit"
-                src="../../assets/videos/Drum Kit.mp4"
+                src={require("../../assets/videos/Drum Kit.mp4")}
                 sentence="It's link on GitHub"
                 gitHubLink="https://github.com/SalahAmer2/Drum-Kit"
             />

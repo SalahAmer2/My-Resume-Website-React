@@ -1,0 +1,21 @@
+@media all and (max-width: 768px) {
+    div.containerDiv {
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+
+.containerDiv {
+    box-shadow: 3px 4px 5px 6px #b8b8b8;
+    border-radius: 7px;
+    background-color: white;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.containerDiv:hover {
+    transform: scale(1.05);
+    transition: all 100ms;
+}
