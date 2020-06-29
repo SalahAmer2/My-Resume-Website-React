@@ -39,22 +39,33 @@
     box-sizing: border-box;
     color: black;
     font-size: 25px;
+    padding-right: 17px;
     display: none;
 }
 
+// @media all and (min-width: 768px) {
+//     .toggle {
+//         display: none;
+//     }
+// }
 @media all and (max-width: 768px) {
     .toggle {
         display: block;
     }
     .navBar {
         display: none;
+        text-align: center;
+    }
+    .about-me-icon {
+        margin: auto;
     }
     .navbarLink {
         display: block;
-        text-align: center;
     }
     .active {
         display: block;
+        display: flex;
+        flex-direction: column;
     }
 }
 
