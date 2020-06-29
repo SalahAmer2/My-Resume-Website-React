@@ -9,6 +9,7 @@ import IntroPart from "./components/introPart/introPart.component";
 import AboutMe from "./pages/about-me/about-me.component";
 import MyProjects from "./pages/my-projects/my-projects.component";
 import MyCertificates from "./pages/my-certificates/my-certificates.component";
+import ShowCertificate from "./components/showCertificate/showCertificate.component";
 import Footer from "./components/footer/footer.component";
 
 const App = () => (
