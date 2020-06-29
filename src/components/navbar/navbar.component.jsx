@@ -11,8 +11,8 @@ const NavBar = () => (
             <i className="fa fa-bars menu" aria-hidden="true"></i>
         </div>
         <h4 style={{fontWeight:'normal'}} className="navBar">
-            <Link className='about-me-icon' to="/">
-                <Avatar src="/broken-image.jpg" />
+            <Link className='about-me-icon-link' to="/">
+                <Avatar src="/broken-image.jpg" className='about-me-icon-avatar-component'/>
             </Link>
             <div className='projects-and-certificates-icons'>
             <Link className='navbarLink' to='/my-projects'>
