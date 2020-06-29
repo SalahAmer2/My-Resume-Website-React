@@ -40,6 +40,11 @@ const AboutMe = () => (
                     alt="image not found" 
                     className="minimizeImg2Size" 
                     />
+                    <img
+                        src={require("../../assets/images/react-logo.png")}
+                        alt="image not found"
+                        className="Img3Size-react-logo"
+                    />
                 </div>
 
                 <h3>I'm a Web Developer</h3>
@@ -48,7 +53,7 @@ const AboutMe = () => (
                     who gets the job done and gives his client exactly what he needs promptly.
                     I have experience in both Front End and Back End development but I'm focused
                     on Front End. I'm skilled in HTML, CSS, JavaScript, Git &amp; Github, JQuery, 
-                    Node.js, Express.js, EJS, MySQL, MongoDB, Authentication &amp; Security, Webpack,
+                    Node.js, Express.js, React, Material-UI, EJS, SCSS, SASS, MySQL, MongoDB, Authentication &amp; Security, Webpack,
                     Working with Multiple APIs in the same project, and Unit testing.
                 </p>
             </div>

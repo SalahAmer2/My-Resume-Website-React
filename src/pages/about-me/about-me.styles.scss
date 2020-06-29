@@ -18,6 +18,9 @@
 
 .myPhoto {
     width: 100%;
+    &:hover {
+        transform: none;
+    }
 }
 
 .everythingUnderHeader {
@@ -36,21 +39,19 @@
     border-radius: 7px;
     color: black;
     box-shadow: 3px 4px 5px 6px #b8b8b8;
-}
-
-.leftDiv h3 {
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-    text-align: center;
-    background-color: white;
-    text-shadow: 2px 2px 5px gray;
-    padding: 5px;
-    margin: 0;
-}
-
-.leftDiv:hover {
-    transform: scale(1.05);
-    transition: all 100ms;
+    h3 {
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        text-align: center;
+        background-color: white;
+        text-shadow: 2px 2px 5px gray;
+        padding: 5px;
+        margin: 0;
+    }
+    &:hover {
+        transform: scale(1.05);
+        transition: all 100ms;
+    }
 }
 
 .rightDiv {
@@ -64,25 +65,24 @@
     color: black;
     box-shadow: 3px 4px 5px 6px #b8b8b8;
     padding: 0 20px 10px 20px;
-}
-
-.rightDiv h3 {
-    border-top-left-radius: 7px;
-    border-top-right-radius: 7px;
-    text-align: center;
-    background-color: white;
-    text-shadow: 2px 2px 5px gray;
-    padding: 5px;
-    margin: 0;
-}
-
-.rightDiv:hover {
-    transform: scale(1.05);
-    transition: all 100ms;
+    &:hover {
+        transform: scale(1.05);
+        transition: all 100ms;
+    }
+    h3 {
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        text-align: center;
+        background-color: white;
+        text-shadow: 2px 2px 5px gray;
+        padding: 5px;
+        margin: 0;
+    }
 }
 
 .skillsIcons {
-    padding-left: 30%;
+    padding-left: 17%;
+    padding-right: 10%;
 }
 
 .minimizeImg1Size {
@@ -92,4 +92,9 @@
 
 .minimizeImg2Size {
     width: 20%;
+}
+
+.Img3Size-react-logo {
+    margin-left: 10px;
+    width: 30%;
 }

@@ -12,10 +12,6 @@
     z-index: 10;
 }
 
-.certificatesWithoutCarousel {
-    display: none;
-}
-
 .slideshow {
     margin: 0 auto;
     padding-top: 50px;
@@ -37,6 +33,10 @@
     float: right;
     animation: rotar 15s infinite linear;
     transform-style: preserve-3d;
+    &:hover {
+        animation-play-state: paused;
+        cursor: pointer;
+    }
 }
 
 @keyframes rotar {
@@ -46,11 +46,6 @@
     to {
         transform: rotateY(360deg);
     }
-}
-
-.content-carousel:hover {
-    animation-play-state: paused;
-    cursor: pointer;
 }
 
 .selectToView {
