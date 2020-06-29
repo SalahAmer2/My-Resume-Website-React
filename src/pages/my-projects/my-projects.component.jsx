@@ -14,8 +14,8 @@ import Project from "../../components/project/project.component";
 const MyProjects = () => (
     <div>
         <br />
-        <div class="containerDiv">
-            <div style="padding: 10px">
+        <div className="containerDiv">
+            <div style={{padding: '10px'}}>
                 <LinkText 
                     sentence="Link to my GitHub Profile's Repositories" 
                     gitHubLink="https://github.com/SalahAmer2?tab=repositories"  

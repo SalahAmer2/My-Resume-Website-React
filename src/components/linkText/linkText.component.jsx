@@ -1,9 +1,9 @@
 import React from 'react';
 
 const LinkText = ({ sentence, gitHubLink }) => (
-    <p class="linkText">
+    <p className="linkText">
         {sentence}
-        <a target="_blank" style="text-decoration: underline" href={gitHubLink}>
+        <a target="_blank" style={{textDecoration: 'underline'}} href={gitHubLink}>
             <strong>here</strong>
         </a>.
     </p>

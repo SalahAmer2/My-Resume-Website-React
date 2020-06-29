@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './footer.styles.scss';
+
 const Footer = () => (
     <div>
         <br />
@@ -8,23 +10,23 @@ const Footer = () => (
              target="_blank" 
              href="https://www.iconfinder.com/icons/1012818/code_development_logo_nodejs_icon"
             >
-                Node.js
+                Node.js &nbsp;
             </a> 
-                icon by 
+                icon by &nbsp;
             <a 
              target="_blank" 
              href="https://www.iconfinder.com"
             >
-                iconfinder
+                iconfinder &nbsp;
             </a>
             <br />
             <a 
              target="_blank" 
              href="https://www.nicepng.com/downpng/u2q8w7a9w7r5r5q8_html-css-icon-png/"
             >
-                HTML JS CSS
+                HTML JS CSS &nbsp;
             </a> 
-                icon by 
+                icon by &nbsp;
             <a 
              target="_blank" 
              href="https://www.nicepng.com"
