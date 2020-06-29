@@ -5,11 +5,7 @@ import Tr from "../../components/about-me-tr/tr.component";
 import './about-me.styles.scss';
 
 const AboutMe = () => (
-    <div className="wholeAboutMe">
-        <div className="introPart">
-            <h1>SALAH AMER</h1>
-            <h2>FRONT END FOCUSED <br />WITH FULL STACK EXPERIENCE</h2>
-        </div>
+    <div>
         <div className="everythingUnderHeader">
             <div className="leftDiv">
                 <h3>Professional Details</h3>

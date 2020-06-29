@@ -1,0 +1,42 @@
+.shadow:nth-child(1) {
+    transform: rotateY(0deg) translateZ(300px);
+}
+
+.shadow:nth-child(2) {
+    transform: rotateY(72deg) translateZ(300px);
+}
+
+.shadow:nth-child(3) {
+    transform: rotateY(144deg) translateZ(300px);
+}
+
+.shadow:nth-child(4) {
+    transform: rotateY(216deg) translateZ(300px);
+}
+
+.shadow:nth-child(5) {
+    transform: rotateY(288deg) translateZ(300px);
+}
+
+.shadow {
+    position: absolute;
+    box-shadow: 0 0 20px 0 #000;
+    border-radius: 2px;
+    width: 100%;
+    height: 120px;
+    border: 1px solid #4d444d;
+    overflow: hidden;
+    position: absolute;
+}
+
+img {
+    image-rendering: auto;
+    transition: all 300ms;
+    width: 100%;
+    height: 100%;
+}
+
+img:hover {
+    transform: scale(1.2);
+    transition: all 300ms;
+}

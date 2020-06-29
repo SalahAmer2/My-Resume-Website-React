@@ -5,6 +5,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import NavBar from "./components/navbar/navbar.component";
+import IntroPart from "./components/introPart/introPart.component";
 import AboutMe from "./pages/about-me/about-me.component";
 import MyProjects from "./pages/my-projects/my-projects.component";
 import MyCertificates from "./pages/my-certificates/my-certificates.component";
@@ -14,6 +15,7 @@ const App = () => (
   <div>
     <BrowserRouter>
     <NavBar />
+    <IntroPart />
     <Switch>
       <Route exact path='/' component={AboutMe} />
       <Route path='/my-projects' component={MyProjects} />

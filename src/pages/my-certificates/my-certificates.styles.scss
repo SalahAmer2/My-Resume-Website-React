@@ -1,0 +1,62 @@
+@media all and (max-width: 768px) {
+    .slideshow {
+        display: none;
+    }
+    .certificatesWithoutCarousel {
+        display: block;
+    }
+}
+
+.certificatesWithoutCarousel {
+    display: none;
+}
+
+.slideshow {
+    margin: 0 auto;
+    padding-top: 50px;
+    height: 700px;
+    box-sizing: border-box;
+}
+
+.content {
+    margin: auto;
+    width: 190px;
+    perspective: 1000px;
+    position: relative;
+    padding-top: 80px;
+}
+
+.content-carousel {
+    width: 100%;
+    position: absolute;
+    float: right;
+    animation: rotar 15s infinite linear;
+    transform-style: preserve-3d;
+}
+
+@keyframes rotar {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+.content-carousel:hover {
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+.selectToView {
+    text-align: center;
+    color: white;
+    font-size: 1.25em;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    box-shadow: 3px 4px 5px 6px #b8b8b8;
+    border-radius: 7px;
+    background-color: white;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}

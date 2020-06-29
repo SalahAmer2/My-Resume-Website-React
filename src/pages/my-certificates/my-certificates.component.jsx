@@ -3,6 +3,8 @@ import React from 'react';
 import CertificateInCarousel from "../../components/certificate-in-carousel/certificate-in-carousel.component";
 import CertificateWithoutCarousel from "../../components/certificate-without-carousel/certificate-without-carousel.component";
 
+import './my-certificates.styles.scss';
+
 const MyCertificates = () => (
     <div>
         <div class="selectToView">

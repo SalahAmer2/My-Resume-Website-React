@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './video.styles.scss'
+import './video.styles.scss';
 
 const Video = ({ videoTitle, src }) => (
     <div>

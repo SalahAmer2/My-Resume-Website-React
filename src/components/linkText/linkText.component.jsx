@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './linkText.styles.scss'
+import './linkText.styles.scss';
 
 const LinkText = ({ sentence, gitHubLink }) => (
     <p className="linkText">
