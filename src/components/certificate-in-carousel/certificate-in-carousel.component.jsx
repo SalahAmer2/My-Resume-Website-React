@@ -2,10 +2,10 @@ import React from 'react';
 
 import './certificate-in-carousel.styles.scss';
 
-const CertificateInCarousel = ({ certificatePath }) => (
-    <figure class="shadow">
-        <a href={certificatePath}>
-            <img src={certificatePath} alt="image not found" />
+const CertificateInCarousel = ({ certificateImage }) => (
+    <figure className="shadow">
+        <a href={certificateImage}>
+            <img src={certificateImage} alt="image not found" />
         </a>
     </figure>
 )
