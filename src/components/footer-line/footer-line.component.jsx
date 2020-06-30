@@ -4,6 +4,7 @@ const FooterLine = ({ iconLink, iconName, iconSiteLink, iconSiteName }) => (
     <div>
         <a
             target="_blank"
+            rel="noopener noreferrer"
             href={iconLink}
         >
             {iconName} &nbsp;
@@ -11,6 +12,7 @@ const FooterLine = ({ iconLink, iconName, iconSiteLink, iconSiteName }) => (
             icon by &nbsp;
         <a
             target="_blank"
+            rel="noopener noreferrer"
             href={iconSiteLink}
         >
             {iconSiteName} &nbsp;
