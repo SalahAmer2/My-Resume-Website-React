@@ -43,6 +43,9 @@ const MyCertificates = () => (
         
         <div className="certificatesWithoutCarousel">
             <CertificateWithoutCarousel
+                certificateImage={uda_frontend_Nanodegree_certificate}
+            /><br />
+            <CertificateWithoutCarousel
                 certificateImage={web_dev_certificate} 
             /><br/>
             <CertificateWithoutCarousel 
@@ -53,9 +56,6 @@ const MyCertificates = () => (
             /><br/>
             <CertificateWithoutCarousel 
                 certificateImage={uda_fullstack_participation_certificate} 
-            /><br/>
-            <CertificateWithoutCarousel
-                certificateImage={uda_frontend_Nanodegree_certificate} 
             />
         </div>
     </div>
