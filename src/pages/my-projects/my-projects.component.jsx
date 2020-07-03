@@ -20,18 +20,25 @@ const MyProjects = () => (
             <div style={{padding: '10px'}}>
                 <LinkText 
                     sentence="Link to my GitHub Profile's Repositories" 
-                    gitHubLink="https://github.com/SalahAmer2?tab=repositories"  
+                    Link="https://github.com/SalahAmer2?tab=repositories"  
                 />
             </div>
         </div>
         <br />
         <div class="containerDiv">
-            <Project
+            <Video
                 videoTitle="E-Commerce Website React Project"
                 src={require("../../assets/videos/salah-crwn-live.mp4")}
-                sentence="It's link on GitHub"
-                gitHubLink="https://github.com/SalahAmer2/crwn-clothing"
             />
+            <LinkText
+                sentence="Link to the live website"
+                Link="https://salah-crwn-live.herokuapp.com"
+            />
+            <LinkText
+                sentence="It's link on GitHub"
+                Link="https://github.com/SalahAmer2/crwn-clothing"
+            />
+            <br />
         </div>
         <br />
         <div class="containerDiv">
@@ -39,7 +46,7 @@ const MyProjects = () => (
                 videoTitle="Travel App"
                 src={require("../../assets/videos/Travel App.mp4")}
                 sentence="It's link on GitHub"
-                gitHubLink="https://github.com/SalahAmer2/Travel-App"
+                Link="https://github.com/SalahAmer2/Travel-App"
             />
         </div>
         <br />
@@ -50,15 +57,15 @@ const MyProjects = () => (
             />
             <LinkText
                 sentence="Link to the live website"
-                gitHubLink="https://quiet-lowlands-72158.herokuapp.com"
+                Link="https://quiet-lowlands-72158.herokuapp.com"
             />
             <LinkText
                 sentence="It's link on GitHub"
-                gitHubLink="https://github.com/SalahAmer2/Live-Website-Project"
+                Link="https://github.com/SalahAmer2/Live-Website-Project"
             />
             <LinkText
                 sentence="Link to my To-Do List live web app that has a database"
-                gitHubLink="https://intense-fjord-30738.herokuapp.com"
+                Link="https://intense-fjord-30738.herokuapp.com"
             />
             <br/>
         </div>
@@ -68,7 +75,7 @@ const MyProjects = () => (
                 videoTitle='Authentication Project "Secrets" with Database'
                 src={require("../../assets/videos/Auth_Secrets.mp4")}
                 sentence="It's link on GitHub"
-                gitHubLink="https://github.com/SalahAmer2/Auth-Project"
+                Link="https://github.com/SalahAmer2/Auth-Project"
             />
         </div>
         <br />
@@ -77,7 +84,7 @@ const MyProjects = () => (
                 videoTitle="Blog Website with Database"
                 src={require("../../assets/videos/Blog Website with Database.mp4")}
                 sentence="It's link on GitHub"
-                gitHubLink="https://github.com/SalahAmer2/Blog-with-Database"
+                Link="https://github.com/SalahAmer2/Blog-with-Database"
             />
         </div>
         <br />
@@ -86,7 +93,7 @@ const MyProjects = () => (
                 videoTitle="Simon Game"
                 src={require("../../assets/videos/Simon Game.mp4")}
                 sentence="It's link on GitHub"
-                gitHubLink="https://github.com/SalahAmer2/Simon-Game"
+                Link="https://github.com/SalahAmer2/Simon-Game"
             />
         </div>
         <br />
@@ -95,7 +102,7 @@ const MyProjects = () => (
                 videoTitle="Drum Kit"
                 src={require("../../assets/videos/Drum Kit.mp4")}
                 sentence="It's link on GitHub"
-                gitHubLink="https://github.com/SalahAmer2/Drum-Kit"
+                Link="https://github.com/SalahAmer2/Drum-Kit"
             />
         </div>
         <br/>
