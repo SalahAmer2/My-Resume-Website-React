@@ -13,14 +13,14 @@ import Footer from "./components/footer/footer.component";
 const App = () => (
   <div>
     <BrowserRouter>
-    <NavBar />
-    <IntroPart />
-    <Switch>
-      <Route exact path='/' component={AboutMe} />
-      <Route path='/my-projects' component={MyProjects} />
-      <Route path='/my-certificates' component={MyCertificates} />
-    </Switch>
-    <Footer />
+      <NavBar />
+      <IntroPart />
+      <Switch>
+        <Route exact path='/' component={AboutMe} />
+        <Route path='/my-projects' component={MyProjects} />
+        <Route path='/my-certificates' component={MyCertificates} />
+      </Switch>
+      <Footer />
     </BrowserRouter>
   </div>
 );

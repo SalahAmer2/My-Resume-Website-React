@@ -26,20 +26,29 @@ const MyProjects = () => (
         </div>
         <br />
         <div class="containerDiv">
-            <Project 
-                videoTitle="Travel App" 
-                src={require("../../assets/videos/Travel App.mp4")}
+            <Project
+                videoTitle="E-Commerce Website React Project"
+                src={require("../../assets/videos/salah-crwn-live.mp4")}
                 sentence="It's link on GitHub"
-                gitHubLink="https://github.com/SalahAmer2/Travel-App"   
+                gitHubLink="https://github.com/SalahAmer2/crwn-clothing"
             />
         </div>
         <br />
         <div class="containerDiv">
-            <Video 
-                videoTitle="Live Websites"
+            <Project
+                videoTitle="Travel App"
+                src={require("../../assets/videos/Travel App.mp4")}
+                sentence="It's link on GitHub"
+                gitHubLink="https://github.com/SalahAmer2/Travel-App"
+            />
+        </div>
+        <br />
+        <div class="containerDiv">
+            <Video
+                videoTitle="Other Live Websites"
                 src={require("../../assets/videos/Live Website.mp4")}
             />
-            <LinkText 
+            <LinkText
                 sentence="Link to the live website"
                 gitHubLink="https://quiet-lowlands-72158.herokuapp.com"
             />
@@ -51,11 +60,12 @@ const MyProjects = () => (
                 sentence="Link to my To-Do List live web app that has a database"
                 gitHubLink="https://intense-fjord-30738.herokuapp.com"
             />
+            <br/>
         </div>
         <br />
         <div class="containerDiv">
             <Project
-                videoTitle='Authentication Project "Secrets"'
+                videoTitle='Authentication Project "Secrets" with Database'
                 src={require("../../assets/videos/Auth_Secrets.mp4")}
                 sentence="It's link on GitHub"
                 gitHubLink="https://github.com/SalahAmer2/Auth-Project"
@@ -64,7 +74,7 @@ const MyProjects = () => (
         <br />
         <div class="containerDiv">
             <Project
-                videoTitle="Blog Website"
+                videoTitle="Blog Website with Database"
                 src={require("../../assets/videos/Blog Website with Database.mp4")}
                 sentence="It's link on GitHub"
                 gitHubLink="https://github.com/SalahAmer2/Blog-with-Database"
