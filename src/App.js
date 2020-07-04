@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 
 import './App.css';
 
@@ -12,7 +12,6 @@ import Footer from "./components/footer/footer.component";
 
 const App = () => (
   <div>
-    <BrowserRouter>
       <NavBar />
       <IntroPart />
       <Switch>
@@ -21,7 +20,6 @@ const App = () => (
         <Route path='/my-certificates' component={MyCertificates} />
       </Switch>
       <Footer />
-    </BrowserRouter>
   </div>
 );
 
