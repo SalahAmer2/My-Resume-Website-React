@@ -97,7 +97,7 @@ const MyProjects = () => (
             />
         </div>
         <br />
-        <div class="containerDiv">
+        {/* <div class="containerDiv">
             <Project
                 videoTitle="Drum Kit"
                 src={require("../../assets/videos/Drum Kit.mp4")}
@@ -105,7 +105,7 @@ const MyProjects = () => (
                 Link="https://github.com/SalahAmer2/Drum-Kit"
             />
         </div>
-        <br/>
+        <br/> */}
     </div>
 )
 
